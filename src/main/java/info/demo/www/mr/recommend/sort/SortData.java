@@ -1,4 +1,4 @@
-package info.xiaohei.www.mr.recommend.sort;
+package info.demo.www.mr.recommend.sort;
 
 import org.apache.hadoop.io.WritableComparable;
 

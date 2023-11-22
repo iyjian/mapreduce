@@ -1,4 +1,4 @@
-package info.xiaohei.www;
+package info.demo.www;
 
 // import info.xiaohei.www.mr.posnet.Counter;
 import org.apache.hadoop.fs.FileSystem;

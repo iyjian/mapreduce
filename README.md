@@ -1,1 +1,1 @@
-cp /home/wucho/projects/softwares/spark-hadoop-docker/share
+cp target/bigdata-mr-1.0-SNAPSHOT.jar /home/wucho/projects/softwares/spark-hadoop-docker/share

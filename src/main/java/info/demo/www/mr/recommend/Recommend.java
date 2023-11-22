@@ -1,19 +1,20 @@
-package info.xiaohei.www.mr.recommend;
+package info.demo.www.mr.recommend;
 
-import info.xiaohei.www.BaseDriver;
-import info.xiaohei.www.HadoopUtil;
-import info.xiaohei.www.JobInitModel;
-import info.xiaohei.www.mr.recommend.sort.SortData;
-import info.xiaohei.www.mr.recommend.sort.SortMapper;
-import info.xiaohei.www.mr.recommend.test.RecommendScoreMapper;
-import info.xiaohei.www.mr.recommend.test.RecommendScoreReducer;
-import info.xiaohei.www.mr.recommend.test.TransferUserScoreMapper;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.io.DoubleWritable;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
+
+import info.demo.www.BaseDriver;
+import info.demo.www.HadoopUtil;
+import info.demo.www.JobInitModel;
+import info.demo.www.mr.recommend.sort.SortData;
+import info.demo.www.mr.recommend.sort.SortMapper;
+import info.demo.www.mr.recommend.test.RecommendScoreMapper;
+import info.demo.www.mr.recommend.test.RecommendScoreReducer;
+import info.demo.www.mr.recommend.test.TransferUserScoreMapper;
 
 import java.io.IOException;
 import java.net.URI;

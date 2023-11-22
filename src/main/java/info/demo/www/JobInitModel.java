@@ -1,4 +1,4 @@
-package info.xiaohei.www;
+package info.demo.www;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.mapreduce.*;

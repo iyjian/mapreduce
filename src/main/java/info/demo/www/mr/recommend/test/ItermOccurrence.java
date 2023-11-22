@@ -1,4 +1,4 @@
-package info.xiaohei.www.mr.recommend.test;
+package info.demo.www.mr.recommend.test;
 
 /**
  * Created by xiaohei on 16/2/25.

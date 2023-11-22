@@ -1,4 +1,4 @@
-package info.xiaohei.www.mr.recommend;
+package info.demo.www.mr.recommend;
 
 import java.io.IOException;
 import java.util.ArrayList;

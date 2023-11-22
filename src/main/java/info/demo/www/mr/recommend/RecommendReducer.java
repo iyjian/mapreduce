@@ -1,4 +1,4 @@
-package info.xiaohei.www.mr.recommend;
+package info.demo.www.mr.recommend;
 
 import org.apache.hadoop.io.DoubleWritable;
 import org.apache.hadoop.io.Text;

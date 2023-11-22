@@ -1,4 +1,4 @@
-package info.xiaohei.www;
+package info.demo.www;
 
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
