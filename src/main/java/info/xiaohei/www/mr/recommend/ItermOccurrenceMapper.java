@@ -5,7 +5,8 @@ import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
-
+import org.apache.hadoop.util.ToolRunner;
+import org.apache.hadoop.conf.Configuration;
 import java.io.IOException;
 
 /**
@@ -30,4 +31,9 @@ public class ItermOccurrenceMapper extends Mapper<LongWritable, Text, Text, IntW
             }
         }
     }
+
+    // public static void main(String[] args) throws Exception {
+    //   int res = ToolRunner.run(new Configuration(), new WordCount(), args);
+    //   System.exit(res);
+	  // }
 }

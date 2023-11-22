@@ -30,6 +30,7 @@ public class Recommend {
         }
 
         Configuration conf = new Configuration();
+        
         //计算用户评分矩阵
         String userScoreMatrixInpath = HadoopUtil.HDFS + "/data/3-recommend/small1.csv";
         String userScoreMatrixOutpath = HadoopUtil.HDFS + "/out/3-recommend/userScoreMatrix";
@@ -48,6 +49,7 @@ public class Recommend {
             String recommendOutpath = HadoopUtil.HDFS + "/out/3-recommend/recommend";
             Job job = Job.getInstance(conf);
             job.addCacheFile(new URI(itermOccurrenceOutpath + "/part-r-00000#itermOccurrenceMatri"));
+            
             JobInitModel recommendJob = new JobInitModel(new String[]{userScoreMatrixOutpath}
                     , recommendOutpath, conf, job, "recommend", Recommend.class, null, RecommendMapper.class, Text.class, DoubleWritable.class
                     , null, null, RecommendReducer.class, Text.class, Text.class);
